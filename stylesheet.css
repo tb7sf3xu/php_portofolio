@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+    margin: 0;    
+}
+
+header {
+    margin: 0;
+    background-color: lightblue;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+ul {
+    margin-left: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a[href="mypage.php"] {
+    margin-left: auto;
+}
+
+form[action="logout.php"] {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;   
+}
+  
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input[name="logout"] {
+    width: 120px;
+    margin-top: 8px;
+}
+  
+.container {
+    width: 100%;
+    height: 100%;    
+}
+
+.logo {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 80px;
+}
+
+.goods-item {
+  float: left;
+  width: 50%; 
+}
+
+.goods-item-only {
+  width: 80%;
+  height: 100%;
+  margin: 20px auto;
+  padding-left: 20px;
+  border: 2px solid black;
+}
+
+.goods-item-name {
+    font-size: 50px;   
+}
+
+.goods-item-about {
+    font-size: 30px;     
+}
+
+.goods-item-order {
+    color: red;
+}
+
+.sent-form {
+    float: right;
+    margin-right: 30px;
+    height: 100px;
+    font-size: medium;
+} 
+
+.order-wrapper {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px ;
+    width: 80%;
+    border: 2px solid black;
+}
+
+form[action="confirm.php"] {  
+    margin: 20px; 
+}
+
+form[action="confirm_2.php"] {
+    margin: 20px;
+}
+
+select {
+    width: 40px;
+}
+
+.clear {
+    clear: right;
+}
+
+footer {
+   
+}
+
+  
+
+  

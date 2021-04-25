@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;   
+}
+
+header {
+    margin: 0;
+    background-color: lightblue;
+    height: 100%;
+    display: flex;
+}
+
+ul {
+    margin-left: auto;
+}
+
+li {
+    list-style: none;
+}
+
+.login {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main {
+    width: 50%;
+    margin: 0 auto;
+    height: 500px; 
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 50px;    
+}
+
+.form {
+    border: solid 3px black;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-body {
+    width: 100%;
+    padding: 50px;    
+}
+
+.form input {
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+input[type="submit"] {
+    width: 120px;
+    float: right;
+    margin-top: 8px;
+    cursor: pointer;   
+}
+
+.err {
+    color: red;
+}
+
+form[action="logout.php"] {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.form-body p {
+    font-size: 16px;
+}
+
+.login-err {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
