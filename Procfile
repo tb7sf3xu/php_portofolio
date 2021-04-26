@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 php_portofolio/
+web: vendor/bin/heroku-php-apache2
