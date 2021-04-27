@@ -3,7 +3,7 @@
    * userデータベースへの接続
    */
   function connectUser() {
-    $dsn = "mysql:dbname=heroku_0cf28b832cea3cb;host=us-cdbr-east-03.cleardb.com;port=3306;chrset=utf8mb4";
+    $dsn = "mysql:dbname=heroku_0cf28b832cea3cb;host=us-cdbr-east-03.cleardb.com;port=3306;chrset=utf8";
     $user = "b06f4f16610003";
     $password = "10144b02";
     
@@ -25,7 +25,7 @@
    * goodsデータベースへの接続
    */
   function connectgoods() {
-    $dsn = "mysql:dbname=heroku_0cf28b832cea3cb;host=us-cdbr-east-03.cleardb.com;port=3306;chrset=utf8mb4";
+    $dsn = "mysql:dbname=heroku_0cf28b832cea3cb;host=us-cdbr-east-03.cleardb.com;port=3306;chrset=utf8";
     $user = "b06f4f16610003";
     $password = "10144b02";
     
