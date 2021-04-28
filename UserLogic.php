@@ -10,6 +10,7 @@
      */
     public static function createUser($userData) {
         $pdo = connectUser();
+        $pdo->set_charset(`utf8`);
         $result = false;
         $sql = "INSERT INTO users (name, email, password) VALUES (?, ?, ?)";
 
@@ -68,6 +69,7 @@
      */
     public static function getUserByEmail($email) {
       $pdo = connectUser();
+      $pdo->set_charset(`utf8`);
       //SQLの準備
       //SQLの実行
       //SQLの結果を返す

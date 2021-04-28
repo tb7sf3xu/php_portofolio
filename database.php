@@ -11,6 +11,7 @@
    */
   function salesCountUpdate($salesCount,$itemid) {
     $dbinfo = connectgoods();
+    $dbinfo->set_charset(`utf8`);
 
     $sql = "UPDATE goods SET salescount=:salescount WHERE itemid=:itemid";
     $stmt = $dbinfo->prepare($sql);
@@ -29,6 +30,7 @@
    */
   function salesUpdate($sales,$itemid) {
     $dbinfo = connectgoods();
+    $dbinfo->set_charset(`utf8`);
 
     $sql = "UPDATE goods SET sales=:sales WHERE itemid=:itemid";
     $stmt = $dbinfo->prepare($sql);
@@ -47,6 +49,7 @@
    */
   function countUpdate($count,$itemid) {
     $dbinfo = connectgoods();
+    $dbinfo->set_charset(`utf8`);
 
     $sql = "UPDATE goods SET count=:count WHERE itemid=:itemid";
     $stmt = $dbinfo->prepare($sql);
@@ -65,6 +68,7 @@
    */
   function anorderUpdate($anorder,$itemid) {
     $dbinfo = connectgoods();
+    $dbinfo->set_charset(`utf8`);
 
     $sql = "UPDATE goods SET anorder=:anorder WHERE itemid=:itemid";
     $stmt = $dbinfo->prepare($sql);
@@ -84,6 +88,7 @@
    */
   function insert($name, $maker, $price) {
     $dbinfo = connectgoods();
+    $dbinfo->set_charset(`utf8`);
 
     $sql = "INSERT INTO goods(name, maker, price) VALUES (:name, :maker, :price)";
     $stmt = $dbinfo->prepare($sql);
@@ -102,6 +107,7 @@
    */
   function findByName($name) {
     $dbinfo = connectgoods();
+    $dbinfo->set_charset(`utf8`);
     
     $sql = "SELECT * FROM goods WHERE name = ?";
 
@@ -127,6 +133,7 @@
    */
   function delete($name) {
     $dbinfo = connectgoods();
+    $dbinfo->set_charset(`utf8`);
 
     $sql = "DELETE FROM goods WHERE name=:name";
     $stmt = $dbinfo->prepare($sql);
