@@ -12,7 +12,7 @@
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
         ]);
-        $pdo->set_charset("utf8");
+        
         return $pdo;
     } catch(PDOException $e) {
         echo "接続失敗です！".$e->getMessage();
@@ -34,7 +34,7 @@
         $dbinfo = new PDO($dsn, $user, $password, [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         ]);
-        $dbinfo->set_charset("utf8");
+        
         return $dbinfo;
     } catch(PDOException $e) {
         echo "接続失敗です！".$e->getMessage();
