@@ -54,12 +54,13 @@
         //goodsデータベースへ接続
         $dbinfo = connectgoods();
         $dbinfo->set_character('utf-8');
+        $res = $dbinfo->query("set character_set_results=utf8");
         //goodsテーブルの全データを選択
         $sql = "SELECT * FROM goods";
       ?>
       
       <!-- 繰り返し処理でデータを一行ずつ取得 -->
-      <?php foreach ($dbinfo->query($sql) as $record): ?>
+      <?php foreach ($res->query($sql) as $record): ?>
 
         <?php
           //取得したデータの項目を変数に代入
