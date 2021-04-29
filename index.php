@@ -53,6 +53,7 @@
       <?php
         //goodsデータベースへ接続
         $dbinfo = connectgoods();
+        $dbinfo->set_character('utf-8');
         //goodsテーブルの全データを選択
         $sql = "SELECT * FROM goods";
       ?>
