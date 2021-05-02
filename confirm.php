@@ -22,7 +22,7 @@
 <head>
   <meta charset ="UTF-8">
   <link rel="stylesheet" href="stylesheet.css">
-  <title>在庫・売り上げ確認画面</title> 
+  <title>売り上げ確認画面</title> 
 </head>
 
 <body>
@@ -32,7 +32,7 @@
   </header>
 
   <div class="order-wrapper">
-    <h2>在庫・売り上げ確認</h2>
+    <h2>売り上げ確認</h2>
 
     <?php 
       //goodsデータベースへ接続
