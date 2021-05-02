@@ -5,7 +5,7 @@
   function connectUser() {
     $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-    $db_name = substr($Url["path"], 1);
+    $db_name = substr($url["path"], 1);
     $db_host = $url["host"];
     $user = $url["user"];
     $password = $url["pass"]; 
@@ -33,7 +33,7 @@
   function connectgoods() {
     $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-    $db_name = substr($Url["path"], 1);
+    $db_name = substr($url["path"], 1);
     $db_host = $url["host"];
     $user = $url["user"];
     $password = $url["pass"]; 
