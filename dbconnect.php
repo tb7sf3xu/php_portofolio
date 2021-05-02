@@ -3,9 +3,14 @@
    * userデータベースへの接続
    */
   function connectUser() {
-    $dsn = "mysql:dbname=heroku_0cf28b832cea3cb;host=us-cdbr-east-03.cleardb.com;port=3306;charset=utf8mb4";
-    $user = "b06f4f16610003";
-    $password = "10144b02";
+    $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+    $db_name = substr($Url["path"], 1);
+    $db_host = $url["host"];
+    $user = $url["user"];
+    $password = $url["pass"]; 
+
+    $dsn = "mysql:dbname=".$db_name.";host=".$db_host.";charset=utf8mb4";
     
     try {
         $pdo = new PDO($dsn, $user, $password, [
@@ -26,9 +31,14 @@
    * goodsデータベースへの接続
    */
   function connectgoods() {
-    $dsn = "mysql:dbname=heroku_0cf28b832cea3cb;host=us-cdbr-east-03.cleardb.com;port=3306;charset=utf8";
-    $user = "b06f4f16610003";
-    $password = "10144b02";
+    $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+    $db_name = substr($Url["path"], 1);
+    $db_host = $url["host"];
+    $user = $url["user"];
+    $password = $url["pass"]; 
+
+    $dsn = "mysql:dbname=".$db_name.";host=".$db_host.";charset=utf8";
     
     try {
         $dbinfo = new PDO($dsn, $user, $password, [
