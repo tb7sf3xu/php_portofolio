@@ -7,3 +7,5 @@
 * 商品の登録と削除をする機能があります。
 
 ## デモ
+
+![デモ](https://user-images.githubusercontent.com/79891554/116988633-9ae6e200-ad0b-11eb-821a-22c1034981b9.png)
