@@ -9,3 +9,9 @@
 ## デモ
 
 ![デモ](https://user-images.githubusercontent.com/79891554/116988633-9ae6e200-ad0b-11eb-821a-22c1034981b9.png)
+
+## 使い方
+
+1. 新規登録画面でユーザー登録してください。
+
+2.
