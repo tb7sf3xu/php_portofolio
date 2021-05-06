@@ -16,4 +16,6 @@
 
 ![使い方](https://user-images.githubusercontent.com/79891554/117242966-452c4a00-ae71-11eb-89c3-e380dddcf9c9.png)
 
-2.
+2. ログイン後、マイページから商品登録画面にいき商品の登録をしてください。
+
+
