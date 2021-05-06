@@ -14,4 +14,6 @@
 
 1. 新規登録画面でユーザー登録してください。
 
+![使い方](https://user-images.githubusercontent.com/79891554/117242966-452c4a00-ae71-11eb-89c3-e380dddcf9c9.png)
+
 2.
