@@ -38,3 +38,4 @@
 
 7. 登録した商品は商品削除画面から削除することができます。
 
+![使い方](https://user-images.githubusercontent.com/79891554/117250072-a528ed80-ae7d-11eb-959a-3d6dbdd5f292.png)
