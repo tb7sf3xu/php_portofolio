@@ -18,4 +18,4 @@
 
 2. ログイン後、マイページから商品登録画面にいき商品の登録をしてください。
 
-
+![使い方](https://user-images.githubusercontent.com/79891554/117243488-52960400-ae72-11eb-8dcf-f4e5b599135c.png)
