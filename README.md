@@ -34,3 +34,4 @@
 
 6. 販売されるとその数に応じ、在庫数、総売上数、総売上、赤字の発注に反映されます。
 
+![使い方](https://user-images.githubusercontent.com/79891554/117249505-a0b00500-ae7c-11eb-8c72-347ac34ec450.jpg)
